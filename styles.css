@@ -1,0 +1,44 @@
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 40px;
+   line-height: 1.6;
+   text-align:center;
+   background-color: antiquewhite;
+}
+
+body {
+   font-size: 25px;
+   margin: 0;
+   overflow: hidden;
+   background-color:linen;
+}
+
+.slider {
+   height: 100vh;
+   overflow-y: scroll;
+   scroll-snap-type: y mandatory;
+   scrollbar-width: none;
+}
+
+
+.slide {
+   height: 100vh;
+   min-height: auto;
+   scroll-snap-align: start;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  scroll-snap-align: start;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top: 60px solid transparent;
+}
+
+li {
+   padding: 0;
+   margin-left: -15px;
+   text-align: left;
+}
+
