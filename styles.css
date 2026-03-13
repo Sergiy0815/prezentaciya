@@ -42,3 +42,12 @@ li {
    text-align: left;
 }
 
+html, body {
+   overflow: hidden;
+   width: 100%;
+   position: relative;
+}
+
+* {
+   box-sizing: border-box;
+}
